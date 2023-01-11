@@ -3,7 +3,7 @@ let jwt=require("jsonwebtoken");
 let passport=require("passport");
 let JwtStrategy=require("passport-jwt").Strategy
 let ExtarctJWT=require("passport-jwt").ExtractJwt
-let cookieParser=require("cookie-parser");
+// let cookieParser=require("cookie-parser");
 let {employes}=require("./data1");
 
 
